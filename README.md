@@ -12,6 +12,6 @@ This Terraform repository provides a streamlined approach to deploying serverles
 
 - **Multi-Region Setup:** Enable high availability and fault tolerance by configuring resources in multiple AWS regions. The primary region is designated, and replication to secondary regions is supported.
 
-- **CloudFront Distribution:** While not directly included in this setup, it serves as a foundational building block for a multi-regional architecture. Further enhancements can be made by integrating a CloudFront distribution and/or Route53 latnecy .
+- **CloudFront Distribution:** While not directly included in this setup, it serves as a foundational building block for a multi-regional architecture. Further enhancements can be made by integrating a CloudFront distribution and/or Route53 latency-based routing.
 
 ![Multi-region Lambda Architecture](/images/multi-regional-lambda.jpg)
